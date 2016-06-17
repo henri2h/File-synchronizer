@@ -3,7 +3,54 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{B488ACCE-7AC1-48E2-84D4-66CA08BAD6D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "File client", "File client\File client.csproj", "{D901BE1E-F03C-4200-B895-E859518723E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileServer", "FileServer\FileServer.csproj", "{A385C452-8F58-4548-9F07-61D50D585AC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilesSyncServer", "FilesSyncServer\FilesSyncServer.csproj", "{4DEDBED8-15CD-48F6-9086-3FF193911D9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{ECAB56C9-564F-4FFF-83EF-2411620B22B0}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		client and server|Any CPU = client and server|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B488ACCE-7AC1-48E2-84D4-66CA08BAD6D9}.client and server|Any CPU.ActiveCfg = client and server|Any CPU
+		{B488ACCE-7AC1-48E2-84D4-66CA08BAD6D9}.client and server|Any CPU.Build.0 = client and server|Any CPU
+		{B488ACCE-7AC1-48E2-84D4-66CA08BAD6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B488ACCE-7AC1-48E2-84D4-66CA08BAD6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B488ACCE-7AC1-48E2-84D4-66CA08BAD6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B488ACCE-7AC1-48E2-84D4-66CA08BAD6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D901BE1E-F03C-4200-B895-E859518723E7}.client and server|Any CPU.ActiveCfg = client and server|Any CPU
+		{D901BE1E-F03C-4200-B895-E859518723E7}.client and server|Any CPU.Build.0 = client and server|Any CPU
+		{D901BE1E-F03C-4200-B895-E859518723E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D901BE1E-F03C-4200-B895-E859518723E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D901BE1E-F03C-4200-B895-E859518723E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D901BE1E-F03C-4200-B895-E859518723E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A385C452-8F58-4548-9F07-61D50D585AC9}.client and server|Any CPU.ActiveCfg = client and server|Any CPU
+		{A385C452-8F58-4548-9F07-61D50D585AC9}.client and server|Any CPU.Build.0 = client and server|Any CPU
+		{A385C452-8F58-4548-9F07-61D50D585AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A385C452-8F58-4548-9F07-61D50D585AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A385C452-8F58-4548-9F07-61D50D585AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A385C452-8F58-4548-9F07-61D50D585AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DEDBED8-15CD-48F6-9086-3FF193911D9E}.client and server|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEDBED8-15CD-48F6-9086-3FF193911D9E}.client and server|Any CPU.Build.0 = Release|Any CPU
+		{4DEDBED8-15CD-48F6-9086-3FF193911D9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DEDBED8-15CD-48F6-9086-3FF193911D9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DEDBED8-15CD-48F6-9086-3FF193911D9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DEDBED8-15CD-48F6-9086-3FF193911D9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECAB56C9-564F-4FFF-83EF-2411620B22B0}.client and server|Any CPU.ActiveCfg = client and server|Any CPU
+		{ECAB56C9-564F-4FFF-83EF-2411620B22B0}.client and server|Any CPU.Build.0 = client and server|Any CPU
+		{ECAB56C9-564F-4FFF-83EF-2411620B22B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECAB56C9-564F-4FFF-83EF-2411620B22B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECAB56C9-564F-4FFF-83EF-2411620B22B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECAB56C9-564F-4FFF-83EF-2411620B22B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
